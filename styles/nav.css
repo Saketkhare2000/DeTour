@@ -1,7 +1,8 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 90%;
+  left: 0;
+  width: 100%;
   z-index: 1;
   display: flex;
   justify-content: space-between;
@@ -9,6 +10,7 @@
   background-color: var(--dark--bg);
   color: var(--white--text);
   height: 100px;
+  padding: 0 120px;
   font-family: "Prompt", sans-serif;
 }
 .navbar .logo {
