@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="/styles/nav.css" />
     <link rel="stylesheet" href="/styles/main.css" />
-    <link rel="stylesheet" href="/styles/about.css" />
+    <link rel="stylesheet" href="/styles/contact.css" />
     <title>DeTour</title>
   </head>
   <body>
@@ -27,27 +27,24 @@
         <li class="navLink">
           <a href="/pages/packages.html">Packages</a>
         </li>
-        <li class="navLink active"><a href="/pages/about.html">About</a></li>
-        <li class="navLink"><a href="/pages/contact.html">Contact</a></li>
+        <li class="navLink"><a href="/pages/about.html">About</a></li>
+        <li class="navLink active">
+          <a href="/pages/contact.html">Contact</a>
+        </li>
       </ul>
     </nav>
     <main>
-      <div class="video-container">
-        <video autoplay loop muted>
-          <source src="/videos/video.mp4" type="video/mp4" />
-        </video>
-        <div class="overlay"></div>
-        <h1 class="header">Hear it from them</h1>
-      </div>
-      <div class="testimonials">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-          minima perferendis repudiandae illum alias aliquam atque veniam cum
-          libero magni nemo eaque ullam, adipisci dolorum quia quos autem quae?
-        </p>
-        <video controls autoplay loop muted>
-          <source src="/videos/about.mp4" type="video/mp4" />
-        </video>
+      <h1 class="heading">Get In Touch</h1>
+      <div class="form">
+        <input class="search" placeholder="Name" type="text" />
+        <input class="search" placeholder="Email" type="email" />
+        <textarea
+          name="message"
+          cols="5"
+          rows="7"
+          placeholder="Your Message"
+        ></textarea>
+        <button class="btn">Send Message</button>
       </div>
     </main>
   </body>

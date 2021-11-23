@@ -1,0 +1,59 @@
+main {
+  margin-top: 100px;
+}
+main .heading {
+  font-size: var(--header);
+  font-weight: bold;
+  font-family: "Prompt", sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form textarea {
+  width: 50%;
+  padding: 10px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgba(88, 88, 88, 0.6);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 0px;
+}
+.form textarea:focus {
+  outline: none;
+}
+.form .btn {
+  width: 20%;
+  background: #1e1f21;
+  color: #fff;
+  border: none;
+  padding: 20px 0px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.form .btn:hover {
+  background: #fff;
+  color: #1e1f21;
+}
+.form .search {
+  height: 60px;
+  width: 50%;
+  padding: 0px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgba(88, 88, 88, 0.6);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 0px;
+}
+main .search:focus {
+  outline: none;
+}
