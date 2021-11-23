@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark--bg);
+  color: var(--white--text);
+  height: 100px;
+  font-family: "Prompt", sans-serif;
+}
+.navbar .logo {
+  font-size: 24px;
+}
+.navbar .navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.navbar .navLinks .active {
+  color: var(--white--text);
+  font-weight: bold;
+}
+.navbar .navLink a {
+  color: var(--white--text);
+  text-decoration: none;
+  font-size: 22px;
+  padding: 0px 20px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+.navbar .navLink a:hover {
+  color: var(--white--text);
+  font-weight: 500;
+}
