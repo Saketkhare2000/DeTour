@@ -26,9 +26,16 @@
       <h1 class="logo">DeTour</h1>
       <ul class="navLinks">
         <li class="navLink"><a href="/pages/index.html">Home</a></li>
-        <li class="navLink">
-          <a href="/pages/packages.html">Packages</a>
-        </li>
+        <div class="dropdown">
+          <li class="navLink dropbtn">
+            <a href="/pages/packages.html">Packages</a>
+            <div class="dropdown-content">
+              <a href="#">Ocean</a>
+              <a href="#">Desert</a>
+              <a href="#">Mountains</a>
+            </div>
+          </li>
+        </div>
         <li class="navLink"><a href="/pages/about.html">About</a></li>
         <li class="navLink active">
           <a href="/pages/contact.html">Contact</a>
@@ -37,17 +44,31 @@
     </nav>
     <main>
       <h1 class="heading">Get In Touch</h1>
-      <div class="form">
+      <form class="form">
+        <label for="name">Name</label>
         <input class="search" placeholder="Name" type="text" />
+        <label for="email">Email</label>
         <input class="search" placeholder="Email" type="email" />
+
+        <label for="country">Country</label>
+        <select class="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="textare">Your Message</label>
+
         <textarea
           name="message"
           cols="5"
           rows="7"
           placeholder="Your Message"
         ></textarea>
-        <button class="btn">Send Message</button>
-      </div>
+        <div class="btn-group">
+          <button class="btn">Send Message</button>
+          <button type="reset" class="btn">Reset</button>
+        </div>
+      </form>
     </main>
     <footer>
       <div class="footer-content">

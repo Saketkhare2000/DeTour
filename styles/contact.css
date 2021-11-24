@@ -11,19 +11,10 @@ main .heading {
   flex-direction: column;
   justify-content: center;
 }
-.form textarea {
-  width: 50%;
-  padding: 10px 30px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  color: rgba(88, 88, 88, 0.6);
-  font-size: 16px;
+.form label {
   font-family: "Poppins", sans-serif;
-  margin: 12px 0px;
 }
-.form textarea:focus {
-  outline: none;
-}
+
 .form .btn {
   width: 20%;
   background: #1e1f21;
@@ -46,7 +37,7 @@ main .heading {
 .form .search {
   height: 60px;
   width: 50%;
-  padding: 0px 30px;
+  padding: 0px 20px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   color: rgba(88, 88, 88, 0.6);
@@ -56,4 +47,27 @@ main .heading {
 }
 main .search:focus {
   outline: none;
+}
+.form textarea {
+  width: 50%;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgba(88, 88, 88, 0.6);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 0px;
+}
+.form textarea:focus {
+  outline: none;
+}
+.form .country {
+  width: 50%;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin: 12px 0px;
 }
