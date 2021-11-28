@@ -1,0 +1,55 @@
+.package {
+  margin-top: 100px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: var(--white--text);
+}
+.package .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.package .details h2 {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.package .details h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.package .details p {
+  font-size: 18px;
+  line-height: 151%;
+  margin-bottom: 1rem;
+}
+.package .details span {
+  font-size: 14px;
+  line-height: 151%;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #ccc;
+}
+.package .details .btn {
+  width: 30%;
+  background: #1e1f21;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.package .details .btn:hover {
+  background: #fff;
+  color: #1e1f21;
+}
