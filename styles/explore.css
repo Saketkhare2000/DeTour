@@ -53,3 +53,34 @@
   background: #fff;
   color: #1e1f21;
 }
+.packages {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.packages td,
+.packages th,
+tr {
+  border: 1px solid #ddd;
+  padding: 8px;
+  transition: all 0.1s ease-out;
+}
+
+.packages tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #1e1f21;
+}
+
+.packages tr:hover th {
+  background-color: #ddd;
+
+  color: #1e1f21;
+}
+
+.packages th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
